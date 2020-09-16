@@ -4,4 +4,13 @@ Rails.application.routes.draw do
   root to: 'posts#index'
 
   resources :posts, only: [:new, :create, :index]
+
+  namespace :api do
+    namespace :v1 do
+      resources :users, only: [:index, :show] do
+        resources :posts, only: [:index]
+      end
+    end
+  end
+
 end
