@@ -1,24 +1,14 @@
-# README
+<h1>Members Only</h1>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<p>
+  This is my solution for the <a href="https://www.theodinproject.com/courses/ruby-on-rails/lessons/authentication">Members Only</a> project, as part of
+  <a href="https://www.theodinproject.com/">The Odin Project</a> curriculum.
+</p>
 
-Things you may want to cover:
+<p>
+  This project was to practice User authentication using the Devise gem. Members can sign up and post messages to a main index page. The author of the article, however, is only displayed if you are currently logged in. If not, no author is displayed>
+</p>
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<p>
+  I also added a basic API (for practice) so I can grab raw JSON data for members and posts.
+</p>
